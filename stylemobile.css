@@ -1,0 +1,340 @@
+@media screen and (max-width:390px) {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 32px 20px;
+    gap: 540px;
+    background-color: #FFFFFF99;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.header-logo {
+    width: 70px;
+    height: 69.42px;
+}
+
+.header-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5.34973px 10.6995px;
+    gap: 10.7px;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 0.334358px solid rgba(96, 96, 96, 0.3);
+    border-radius: 8px; 
+    color: #6060604D;
+}
+
+.text {
+    display: none;
+ }
+
+ .lupa{
+    width: 13.37px;
+    height: 13.37px;
+ }
+
+ .main {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:space-around; 
+ }
+
+ .bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 170px;
+    left: 32px;
+    right: 32px;
+  
+ }
+ 
+ .container-1{
+    display: flex;
+    flex-direction: row;
+    width: 326px;
+    height: 283px;
+    left: 32px;
+    top: 170px;
+
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 326.32px;
+    height: 283.31px;
+    left: 165.69px;
+    top: 471px;
+}
+
+.content-1{
+    padding: 24px;
+    gap: 31px;
+}
+
+.content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 31px;
+    left: 193.39px;
+}
+
+.content--1{
+    padding: 24px;
+    gap: 31px;
+}
+
+.content--2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 31px;
+    top: 279px;
+}
+
+.tablito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13.261px;
+    gap: 17.13px;
+    width: 175.71px;
+    height: 283px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+ }
+ 
+.tablito-img{
+    width: 149.19px;
+    height: 149.19px;
+}
+
+.tablito-h1{
+    width: 149.19px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 17.6814px;
+    line-height: 22px;
+    color: #292929;
+}
+
+.tablito-h3{
+    width: 149.19px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 8.84068px;
+    line-height: 11px;
+    color: #606060;
+    margin-top: 4.42px;
+}
+
+
+.tablito-preço {
+    width: 49px;
+    height: 16px;
+    font-weight: 400;   
+    font-size: 13.261px;
+    line-height: 16px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4.42034px;
+    gap: 5.53px;
+    width: 57.84px;
+    height: 24.84px;
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 4.42034px;
+    
+
+}
+
+.brigadeiro {
+    width: 132.61px;
+    height: 132.66px;
+    top: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+}
+
+.brigadeiro-img{
+    width: 106.09px;
+    height: 106.09px;
+    margin: 13.26px;
+}
+
+
+.kolorix {
+    width: 132.61px;
+    height: 132.66px;
+    top: 320.34px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+}
+
+.kolorix-img{
+    width: 106.09px;
+    height: 106.09px;
+    margin: 13.26px;
+}
+
+.chicabon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13.261px;
+    gap: 17.13px;
+    width: 175.71px;
+    height: 283px;
+    left: 182.61px;
+    right: 31.68px;
+    top: 471px;
+    bottom: 166px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+
+}
+
+.chicabon-img{
+    width: 149.19px;
+    height: 149.19px;    
+}
+
+.chicabon-h1{
+    width: 149.19px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 17.6814px;
+    line-height: 22px;
+    color: #292929;
+}
+
+.chicabon-h3{
+    width: 149.19px;
+    height: 22px;    
+    font-weight: 500;
+    font-size: 8.84068px;
+    line-height: 11px;
+    color: #606060;
+    margin-top: 4.42px;
+}
+
+.chicabon-preço{
+    width: 48px;
+    height: 16px;    
+    font-weight: 400;
+    font-size: 13.261px;
+    line-height: 16px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4.42034px;
+    gap: 5.53px;
+    width: 56.84px;
+    height: 24.84px;
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 4.42034px;
+}
+
+.chicabon-morango{
+    width: 132.61px;
+    height: 132.66px;
+    top: 150.66px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+}
+
+.chicabon-morango-img{
+    width: 106.09px;
+    height: 106.09px;
+    margin: 13.26px;
+}
+
+.minions {
+    width: 132.61px;
+    height: 132.66px;    
+    top: 150.66px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+}
+
+.minions-img{
+    width: 106.09px;
+    height: 106.09px;
+    margin: 13.26px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 24px;
+    margin-top: 37.69px;
+    background: #F2F2F2;
+    height: 128px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0px;  
+}
+
+.redes-sociais{
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer-logo{
+    display: none;
+}
+
+.footer-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+    size: 12px;
+    line-height: 15px;
+    color: #292929;
+    top: 0;
+    left: 86.5px;
+    bottom: 0;
+    right: 86.5px;
+    height: 128px;
+    white-space : nowrap;
+}
+}
